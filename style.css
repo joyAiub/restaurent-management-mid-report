@@ -1,0 +1,140 @@
+body{
+    background: url(back1.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+#background{
+		background: url(back2.jpg)
+		no-repeat;
+		background-size: left top;
+		width: 1330px;
+	height: 550px;
+	margin-left: 0%
+
+}
+
+header{
+	 width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.table1
+{
+	width: 30%;
+	height: 100px;
+	margin-top: -40%;
+	margin-left: 30%;
+	background: white;
+	text-align: center;
+	font-family: cursive;
+}
+.table1 img
+{
+	width: 480px;
+	height: 220px;
+
+}
+
+.head{
+    float: left;
+    color: #fff;
+    font-family: cursive;
+}
+
+.nav{
+	float: right;
+	margin-top: 1%;
+}
+.nav li{
+	display: inline;
+    padding: 1rem;
+}
+.nav li a{
+	color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav li a:hover{
+	color: red;
+}
+.slideshow{
+	width: 60%;
+	height: 400px;
+	position: absolute;
+	margin-left: 55%;
+	margin-top: 20%;
+	transform: translate(-50%,-50%);
+	background-image: url(food.jpg);
+	background-size: 100% 100%;
+	animation: 20s slider infinite linear;
+}
+@keyframes slider{
+	0%{ background-image: url(food.jpg);}
+	20%{ background-image: url(food1.jpg);}
+	35%{ background-image: url(food2.jpg);}
+	50%{ background-image: url(food3.jpg);}
+	60%{ background-image: url(food4.jpg);}
+	75%{ background-image: url(food5.jpg);}
+	90%{ background-image: url(food6.jpg);}
+}
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1%;
+}
+showcase h1{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+showcase h3{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.category{
+    color: white;
+    margin-top: 10%;
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+}
+.category img{
+    width: 70%;
+    border-radius: 50%;
+}
+.snacks, .grill{
+    padding-left: 1rem;
+}
+
+h4{
+    font-size: 1.5rem; /*1rem=16px */
+    margin: 3%;
+}
+.img1 img{
+	width: 25%;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    margin-top: 0%;
+
+}
+
+showcase p{
+	color: white;
+}
+.footer
+{
+	background: #00033A;
+	color: white;
+	font-style: bold;
+	padding: 20px;
+	margin-top: 10%;
+	height: 150px;
+	text-align: center;
+}
+
+
